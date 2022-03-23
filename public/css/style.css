@@ -1,4 +1,13 @@
+*{
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: cornflowerblue;
+}
+
+img {
+    height: 50%;
+    width: 50%;
 }

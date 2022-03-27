@@ -7,14 +7,14 @@ router.get('/', (req, res) => {
         city: 'San Diego',
         state: 'CA',
         cuisines: 'Ramen, Japaneese',
-        pic: 'https://i.ytimg.com/vi/VHkkKbedGsU/maxresdefault.jpg',
+        pic: '/images/tajima.jpg',
     }, 
     {
         name: 'La Granja',
         city: 'Margate',
         state: 'FL',
         cuisines: 'Peruvian',
-        pic: 'https://www.lagranjarestaurants.com/media/uploads/ofertas/promo-2-home.png?a=1',
+        pic: '/images/laGranja.png',
     },
 ]
     res.render('places/index', {places})
